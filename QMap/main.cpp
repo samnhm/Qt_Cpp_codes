@@ -1,6 +1,7 @@
 /*
 
   This is an example of using QMap Class
+  I have used QMap to display the ages of three variables
 
  */
 
