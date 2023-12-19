@@ -16,7 +16,7 @@ void Test::timeout()
 {
     qInfo() << "Test!";
     count++;
-    if(count >= 3)
+    if(count >= 5)
     {
         m_timer.stop();
         qInfo() << "Done!";
