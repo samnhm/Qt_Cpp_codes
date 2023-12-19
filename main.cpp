@@ -18,15 +18,15 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     AgeCalc saman;
-    AgeCalc saghar;
+    AgeCalc limon;
 
     saman.setName("Saman");
     saman.setAge(25);
-    saghar.setName("Saghar");
-    saghar.setAge(31);
+    limon.setName("Limon");
+    limon.setAge(13);
 
     print(saman);
-    print(saghar);
+    print(limon);
 
     return a.exec();
 }
