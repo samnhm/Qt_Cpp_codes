@@ -20,6 +20,7 @@ int main(int argc, char *argv[])
     qInfo() << "Values:" << ages.values();
     qInfo() << "Saman is:" << ages["Saman"] << "years old";
 
+    //here I removed one of the varaibles
     ages.remove("Rango");
     qInfo() << "Contains" << ages.contains("Rango");
 
@@ -30,11 +31,10 @@ int main(int argc, char *argv[])
 
     qInfo() << "Test" << ages.value("Test",-1);
 
-    ages["Saman"] = 99;
+    // here we overwrite the age with a new value
+    ages["Saman"] = 35;
     qInfo() << "Saman" << ages.value("Saman",-1);
 
-    ages["Test"] = 222;
-    qInfo() << "Test" << ages.value("Test",-1);
 
     return a.exec();
 }
