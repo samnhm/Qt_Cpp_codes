@@ -1,5 +1,7 @@
 /*
 Age Calculater, using classes and encapsulation
+
+I put the class as 'QObject'
 */
 
 #include <QCoreApplication>
